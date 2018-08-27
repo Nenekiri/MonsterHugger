@@ -156,7 +156,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 213306732024145274, guid: 6eb8730b212eb4fc3b19ba06c34f337f,
+      objectReference: {fileID: 213297421010109968, guid: 5f73f09d264cb9547b5f4bba76667f32,
         type: 2}
     - target: {fileID: 212611785698759296, guid: 927ded5d10c24491eb7b58f2b8bbd22c,
         type: 2}
@@ -199,6 +199,32 @@ Prefab:
         type: 2}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114967750547479114, guid: 927ded5d10c24491eb7b58f2b8bbd22c,
+        type: 2}
+      propertyPath: m_File
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f73f09d264cb9547b5f4bba76667f32,
+        type: 2}
+    - target: {fileID: 114967750547479114, guid: 927ded5d10c24491eb7b58f2b8bbd22c,
+        type: 2}
+      propertyPath: m_Settings.customPlaybackMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114967750547479114, guid: 927ded5d10c24491eb7b58f2b8bbd22c,
+        type: 2}
+      propertyPath: m_Settings.customFramesPerSecond
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114967750547479114, guid: 927ded5d10c24491eb7b58f2b8bbd22c,
+        type: 2}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114967750547479114, guid: 927ded5d10c24491eb7b58f2b8bbd22c,
+        type: 2}
+      propertyPath: m_Settings.customFilterMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 927ded5d10c24491eb7b58f2b8bbd22c, type: 2}
@@ -1054,7 +1080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_States: []
-  m_File: {fileID: 11400000, guid: 6eb8730b212eb4fc3b19ba06c34f337f, type: 2}
+  m_File: {fileID: 11400000, guid: 5f73f09d264cb9547b5f4bba76667f32, type: 2}
   speed: 1
   m_Settings:
     randomizeOnStart: 0
@@ -1079,14 +1105,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 213306732024145274, guid: 6eb8730b212eb4fc3b19ba06c34f337f, type: 2}
+  m_Sprite: {fileID: 213111148721407544, guid: 5f73f09d264cb9547b5f4bba76667f32, type: 2}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1288,7 +1314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeScene: ForestDeerTestScene
   m_Animator: {fileID: 1114397762}
-  m_Transition: {fileID: 11400000, guid: 6eb8730b212eb4fc3b19ba06c34f337f, type: 2}
+  m_Transition: {fileID: 11400000, guid: 5f73f09d264cb9547b5f4bba76667f32, type: 2}
 --- !u!1 &1547364012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,7 +1847,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 213813463248725602, guid: 17a361167fa3fee46be2837d87074733,
+      objectReference: {fileID: 213611700741395916, guid: 17a361167fa3fee46be2837d87074733,
         type: 2}
     - target: {fileID: 114953387260615034, guid: 7e5c87a6e21ee7a4b88925f2d9c5b0c8,
         type: 2}
