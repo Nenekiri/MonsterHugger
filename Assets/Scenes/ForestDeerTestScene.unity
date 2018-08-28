@@ -2609,6 +2609,7 @@ GameObject:
   - component: {fileID: 864816582}
   - component: {fileID: 864816581}
   - component: {fileID: 864816579}
+  - component: {fileID: 864816580}
   m_Layer: 0
   m_Name: SwishTheSlimeBase Sprite
   m_TagString: Huggable
@@ -2628,6 +2629,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 4, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &864816580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 864816578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591aff972de15304090c8d7f41487239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationIdle: {fileID: 11400000, guid: 89314e0a1cef8a849ad737f7849b7e3c, type: 2}
+  animationAfterHug: {fileID: 11400000, guid: b5c088fefc19ff949b98db8305b861ac, type: 2}
+  timer: 0
+  animator: {fileID: 864816581}
+  hugTime: 2
 --- !u!114 &864816581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2688,7 +2705,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 213921883242385056, guid: 89314e0a1cef8a849ad737f7849b7e3c, type: 2}
+  m_Sprite: {fileID: 213545181996922018, guid: 89314e0a1cef8a849ad737f7849b7e3c, type: 2}
   m_Color: {r: 0.621173, g: 0.9339623, b: 0.65055186, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2951,6 +2968,7 @@ GameObject:
   - component: {fileID: 1047873222}
   - component: {fileID: 1047873221}
   - component: {fileID: 1047873224}
+  - component: {fileID: 1047873220}
   m_Layer: 0
   m_Name: CurliqueBase Sprite
   m_TagString: Huggable
@@ -2958,6 +2976,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1047873220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1047873219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591aff972de15304090c8d7f41487239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationIdle: {fileID: 11400000, guid: 2fac9ca6f625ca345bb9853a1b955b98, type: 2}
+  animationAfterHug: {fileID: 11400000, guid: fbc775fa82981b0468b1c2beb2dbe3ed, type: 2}
+  timer: 0
+  animator: {fileID: 1047873221}
+  hugTime: 3
 --- !u!114 &1047873221
 MonoBehaviour:
   m_ObjectHideFlags: 0
