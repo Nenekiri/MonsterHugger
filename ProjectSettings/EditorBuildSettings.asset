@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1e7a850afe9058d439f3a165a1265319
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
@@ -14,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestDeerTestScene.unity
     guid: 9e2deca61a4c5064cbf55fc22296e377
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 162f685bfa4cdb240ba6fc0211a5865e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 29c18648b7a803844bf0c4f2fc93c814
   m_configObjects: {}
