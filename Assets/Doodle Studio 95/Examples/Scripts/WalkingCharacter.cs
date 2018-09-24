@@ -7,8 +7,8 @@ namespace DoodleStudio95Examples {
 [RequireComponent(typeof(DoodleAnimator)), RequireComponent(typeof(SpriteRenderer))]
 public class WalkingCharacter : MonoBehaviour {
 
-	public float movementSpeedX = 4;
-	public float movementSpeedY = 4;
+	public float movementSpeedX = 14;
+	public float movementSpeedY = 14;
 
 	public bool touchControls = false;
 
