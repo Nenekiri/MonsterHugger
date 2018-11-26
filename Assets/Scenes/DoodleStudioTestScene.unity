@@ -241,11 +241,11 @@ GameObject:
   - component: {fileID: 262850136}
   - component: {fileID: 262850135}
   - component: {fileID: 262850141}
-  - component: {fileID: 262850140}
   - component: {fileID: 262850139}
+  - component: {fileID: 262850140}
   m_Layer: 0
   m_Name: kitty Sprite
-  m_TagString: Untagged
+  m_TagString: Huggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -323,7 +323,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 213977922516549658, guid: 1135f5ea860693446a0c6ea298fd7e67, type: 2}
+  m_Sprite: {fileID: 213591630477029268, guid: 1135f5ea860693446a0c6ea298fd7e67, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -341,7 +341,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 262850134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.24, y: 0.87, z: 6.36}
+  m_LocalPosition: {x: -8.24, y: 1.003, z: 6.36}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -365,21 +365,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!54 &262850140
-Rigidbody:
+--- !u!114 &262850140
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 262850134}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591aff972de15304090c8d7f41487239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationIdle: {fileID: 11400000, guid: 1135f5ea860693446a0c6ea298fd7e67, type: 2}
+  animationAfterHug: {fileID: 11400000, guid: 545798a971cc6224b96ecc66c281d133, type: 2}
+  timer: 0
+  animator: {fileID: 262850136}
+  hugTime: 3
 --- !u!65 &262850141
 BoxCollider:
   m_ObjectHideFlags: 0
