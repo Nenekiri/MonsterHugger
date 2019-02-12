@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 29c18648b7a803844bf0c4f2fc93c814
+  - enabled: 1
+    path: Assets/Scenes/BeachFun.unity
+    guid: 02cc854e2e105e740bdb4975d5d8bf1f
   m_configObjects: {}

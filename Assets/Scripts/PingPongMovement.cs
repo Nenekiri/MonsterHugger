@@ -5,7 +5,8 @@ using UnityEngine;
 public class PingPongMovement : MonoBehaviour {
 
     public Vector3 pointB;
-    public float travelTime; 
+    public float travelTime;
+    public float flipValue;  
 
     IEnumerator Start()
     {
@@ -27,5 +28,11 @@ public class PingPongMovement : MonoBehaviour {
             thisTransform.position = Vector3.Lerp(startPos, endPos, i);
             yield return null;
         }
+
+        //This is the code to flip the sprite on the X-axis when the destination has been reached
+        Vector3 theScale = thisTransform.localScale;
+        theScale.x *= -1;
+        thisTransform.localScale = theScale;
+        
     }
 }

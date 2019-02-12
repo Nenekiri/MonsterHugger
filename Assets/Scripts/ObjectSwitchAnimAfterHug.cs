@@ -14,10 +14,11 @@ public class ObjectSwitchAnimAfterHug : MonoBehaviour {
     public DoodleAnimator animator;
     public float hugTime; //normally set to 3.0f, which is 3 seconds but declaring this variable so I can go through and set different times for other creatures
 
+    
+
     // Use this for initialization
     void Start ()
     {
-		
 	}//end of start method
 	
 	// Update is called once per frame
