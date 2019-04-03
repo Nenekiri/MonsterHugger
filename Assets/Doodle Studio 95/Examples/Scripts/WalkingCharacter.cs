@@ -180,5 +180,21 @@ public class WalkingCharacter : MonoBehaviour {
         //    }
         //}
 
+        void LateUpdate()
+        {
+            if (Input.GetButtonDown("Run"))
+            {
+                //This will change the movement speed of the dragon so it can move around the environment faster
+                movementSpeedX = 28;
+                movementSpeedY = 28;
+            }
+            else if (Input.GetButtonUp("Run"))
+            {
+                //This resets the speed when the button is let go
+                movementSpeedX = 14;
+                movementSpeedY = 14; 
+            }
+        }
+
     }//end of class
 }//end of namespace
