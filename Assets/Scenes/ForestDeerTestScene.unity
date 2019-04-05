@@ -1274,7 +1274,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 213173014038390978, guid: 10b362fa77235744680e33c563c171b2, type: 2}
+  m_Sprite: {fileID: 213541189003567146, guid: 10b362fa77235744680e33c563c171b2, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9641,7 +9641,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 213259658174677546, guid: 17335d2d7272645429559c436bafdf58,
+      objectReference: {fileID: 213889094160859580, guid: 17335d2d7272645429559c436bafdf58,
         type: 2}
     - target: {fileID: 4525167888588544, guid: f0df30901621ea6488e94be605139d0b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -9996,6 +9996,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &865730735
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 351.6369
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.159546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 95.027405
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796754892865586, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+      propertyPath: m_RootOrder
+      value: 183
+      objectReference: {fileID: 0}
+    - target: {fileID: 114626027284803618, guid: 55d8ac08e6156f24197080b52d260447,
+        type: 2}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &870310017
 GameObject:
   m_ObjectHideFlags: 0
@@ -12605,7 +12652,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 213889205309242070, guid: 17335d2d7272645429559c436bafdf58,
+      objectReference: {fileID: 213889094160859580, guid: 17335d2d7272645429559c436bafdf58,
         type: 2}
     - target: {fileID: 4525167888588544, guid: f0df30901621ea6488e94be605139d0b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -13231,7 +13278,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 213514495692621928, guid: 17335d2d7272645429559c436bafdf58,
+      objectReference: {fileID: 213889094160859580, guid: 17335d2d7272645429559c436bafdf58,
         type: 2}
     - target: {fileID: 4525167888588544, guid: f0df30901621ea6488e94be605139d0b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -24744,7 +24791,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 213507131985320500, guid: 17335d2d7272645429559c436bafdf58,
+      objectReference: {fileID: 213889094160859580, guid: 17335d2d7272645429559c436bafdf58,
         type: 2}
     - target: {fileID: 4525167888588544, guid: f0df30901621ea6488e94be605139d0b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
