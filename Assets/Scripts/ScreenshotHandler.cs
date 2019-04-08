@@ -16,13 +16,15 @@ public class ScreenshotHandler : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetButtonDown("Screenshot"))
         {
             string date = System.DateTime.Now.ToString();
             date = date.Replace("/", "-");
             date = date.Replace(" ", "_");
             date = date.Replace(":", "-");
-            ScreenCapture.CaptureScreenshot(Application.dataPath + "/ScreenShots/SS_" + date + ".png");
+            ScreenCapture.CaptureScreenshot("SS_" + date + ".png"); 
+            //This line works in editor, but not in build
+            //ScreenCapture.CaptureScreenshot(Application.dataPath + "/ScreenShots/SS_" + date + ".png");
             audio.PlayOneShot(cameraClick);
         }
 		

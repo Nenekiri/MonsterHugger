@@ -843,7 +843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &529734005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 213120833982974920, guid: 857590a30fc3f874fa7d0b7f06ac6727, type: 2}
+  m_Sprite: {fileID: 213316810508651534, guid: 857590a30fc3f874fa7d0b7f06ac6727, type: 2}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1794,10 +1794,15 @@ Prefab:
         type: 2}
       propertyPath: audio
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 817937845}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d8ac08e6156f24197080b52d260447, type: 2}
   m_IsPrefabAsset: 0
+--- !u!82 &817937845 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82701337326825272, guid: 55d8ac08e6156f24197080b52d260447,
+    type: 2}
+  m_PrefabInternal: {fileID: 817937844}
 --- !u!1001 &923017818
 Prefab:
   m_ObjectHideFlags: 0
@@ -2052,7 +2057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: You can take screenshots with C or the X button on the Xbox 360 controller!
+  m_Text: You can take screenshots with C or the A button on the Xbox 360 controller!
     Try it out!
 --- !u!222 &1096266454
 CanvasRenderer:
